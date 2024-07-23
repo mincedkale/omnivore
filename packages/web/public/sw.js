@@ -8,8 +8,8 @@
 ;(function () {
   const globalApi = (typeof globalThis !== 'undefined' && globalThis) || self
 
-  const mainOrigin = 'https://omnivore.app'
-  const devOrigin = 'https://dev.omnivore.app'
+  const mainOrigin = 'http://localhost:3000'
+  const devOrigin = 'http://localhost:3000'
   const demoOrigin = 'https://demo.omnivore.app'
   const webProdOrigin = 'https://web-prod.omnivore.app'
   const webDemoOrigin = 'https://web-demo.omnivore.app'

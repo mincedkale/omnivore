@@ -22,7 +22,7 @@ export function ArticleSubtitle(props: ArticleSubtitleProps): JSX.Element {
         {!props.hideButton && !shouldHideUrl(props.href) && (
           <>
             <StyledLink
-              href={props.href}
+              href={'asdf'}
               target="_blank"
               rel="noreferrer"
               css={{
@@ -30,7 +30,7 @@ export function ArticleSubtitle(props: ArticleSubtitleProps): JSX.Element {
                 color: '$grayTextContrast',
               }}
             >
-              See original
+              See original.....
             </StyledLink>
           </>
         )}
